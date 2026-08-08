@@ -7,7 +7,7 @@ bt.addEventListener("click",function(){
     if(ps===cps){
         p.style.color="green"
         p.innerHTML="correct"
-        window.location = "login.html"
+        window.location = "pro.html"
     }
     else{
         p.style.color="red"
