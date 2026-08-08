@@ -10,7 +10,7 @@ bt.addEventListener("click", function () {
     if (iuser === cuser && ipass === cpass) {
         p.innerHTML = "Correct"
         p.style.color = "green"
-        window.location = "login.html"
+        window.location = "pro.html"
     } else {
         p.innerHTML = "incorrect"
         p.style.color = "red"
