@@ -1,18 +1,17 @@
 var bt = document.getElementById("bttn")
 var p = document.getElementById("nigger")
-var cuser = "admin"
-var cpass = "123456"
+bt.addEventListener("click",function(){
+    var ps = document.getElementById("password").value
+    var cps = document.getElementById("cpassword").value
 
-bt.addEventListener("click", function () {
-    var iuser = document.getElementById("username").value()
-    var ipass = document.getElementById("password").value()
-
-    if (iuser === cuser && ipass === cpass) {
-        p.innerHTML = "Correct"
-        p.style.color = "green"
+    if(ps===cps){
+        p.style.color="green"
+        p.innerHTML="correct"
         window.location = "pro.html"
-    } else {
-        p.innerHTML = "incorrect"
-        p.style.color = "red"
     }
-});
+    else{
+        p.style.color="red"
+        p.innerHTML="Fuck off"
+    }
+})
+
